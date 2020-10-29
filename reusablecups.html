@@ -1,279 +1,275 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+  <head>
     <title>Planet A - Environmentally Friendly Cups - Products</title>
     <link href="css/project_css.css" rel="stylesheet" type="text/css">
-</head>
-<script type='text/javascript' src='script/products_script.js'></script>
+  </head>
+  <script type='text/javascript' src='script/products_script.js'></script>
 
-<body>
+  <body>
     <header>
-        <div class="container">
-            <div class="header_img"></div>
-            <div class="centered">PLANET A</div>
-        </div>
+      <div class="container">
+        <div class="header_img"></div>
+        <div class="centered">PLANET A</div>
+      </div>
 
-        <div class="menu">
-            <ul>
-                <li><a href="index.html" id='redirect'>home</a></li>
-                <li><a href="reusablecups.html" id='redirect'>reusable cups</a></li>
-                <li><a href="contribute.html" id='redirect'>contribute</a></li>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html" id='redirect'>home</a></li>
+          <li><a href="reusablecups.html" id='redirect'>reusable cups</a></li>
+          <li><a href="contribute.html" id='redirect'>contribute</a></li>
 
-            </ul>
-        </div>
+        </ul>
+      </div>
 
     </header>
-    <p>
-        <br>
-    </p>
-    <div class="row">
+
+    <div id="products">
+      <div class="row">
         <div class="column">
-            <img src="images/products/silicon_cup.jpg" class="cropped" style="height:300px; width:300px" alt='Simple Biodegradable reusable cup' onclick='openModal("product1")'>
-            <img src="images/products/glass_cup.jpg" class="cropped" style="height:300px;" alt='transparent Biodegradable reusable cup' onclick='openModal("product2")'>
-            <img src="images/products/silicon_cup2.jpeg" class="cropped" style="height:300px;width:300px" alt='closeable Biodegradable reusable cup' onclick='openModal("product3")'>
-
-
-            <!--modal for product 1-->
-            <div id='product1' class='productModal'>
-                <div class='modal-window'>
-                    <div class='modal_img'></div>
-                    <div class="modalLogo">PLANET A</div>
-                    <div class='productTitle'>
-                        <h3>The Minimalist Cup</h3>
-                    </div>
-                    <a><button onclick='closeModal("product1")' class='modal-close'>&times;</button></a>
-                    <div class='productText'>
-                        <p>Our most simplistic reuseable cup. Simple in design for simple needs. Made out of 100% biodegradable bamboo and is completely biodegradable. It can contain 300ml's of your favorite coffee, and is dishwasher and microwave friendly.
-                        </p>
-                        <img src="images/products/silicon_cup.jpg" alt='Simple Biodegradable reusable cup' style="height:300px; width:300px">
-                    </div>
-                    <h2 class='productPrice'>$7.99</h2>
-                </div>
-            </div>
-            <div id='overlay'></div>
-            <!--end of modal for product 1-->
-
-            <!--modal for product 2-->
-            <div id='product2' class='productModal'>
-                <div class='modal-window'>
-                    <div class='modal_img'></div>
-                    <div class="modalLogo">PLANET A</div>
-                    <div class='productTitle'>
-                        <h3>The Fine Diner Cup</h3>
-                    </div>
-                    <a><button onclick='closeModal("product2")' class='modal-close'>&times;</button></a>
-                    <div class='productText'>
-                        <p>An Elegant design to replace single use plastic cups at events. It is made out of Greencast, a recyclable clear acrylic, to give off the elegant finish. It is as elegant as glass, yet as cheap as your disposable paper cups. It
-                            can contain 300ml's of your favorite coffee, and is, biodegradable, dishwasher and microwave friendly.
-                        </p>
-                        <img src="images/products/glass_cup.jpg" alt='transparent Biodegradable reusable cup' style="height:300px;">
-                    </div>
-                    <h2 class='productPrice'>$2.99</h2>
-                </div>
-            </div>
-            <div id='overlay'></div>
-            <!--end of modal for product 2-->
-
-            <!--modal for product 3-->
-            <div id='product3' class='productModal'>
-                <div class='modal-window'>
-                    <div class='modal_img'></div>
-                    <div class="modalLogo">PLANET A</div>
-                    <div class='productTitle'>
-                        <h3>The All Terrain Cup</h3>
-                    </div>
-                    <a><button onclick='closeModal("product3")' class='modal-close'>&times;</button></a>
-                    <div class='productText'>
-                        <p>This tough design is for those who are always on the go. Even if that means you are travelling from one country to the next, or from one side of your room to the next. This cup will help you bring your morning goodness everywhere
-                            you go. It comes designed with a closeable lip for those doing cartwheels with their coffee. It is made out of 100% biodegradable bamboo and is dishwasher and microwave friendly.
-                        </p>
-                        <img src="images/products/silicon_cup2.jpeg" alt='closeable Biodegradable reusable cup' style="height:300px;width:200px">
-                    </div>
-                    <h2 class='productPrice'>$9.99</h2>
-                </div>
-            </div>
-            <div id='overlay'></div>
-            <!--end of modal for product 3-->
-
+          <img src="images/products/silicon_cup.jpg" class="cropped" style="height:300px; width:300px" alt='Simple Biodegradable reusable cup' onclick='openModal("product1")'>
+          <img src="images/products/glass_cup.jpg" class="cropped" style="height:300px;" alt='transparent Biodegradable reusable cup' onclick='openModal("product2")'>
+          <img src="images/products/silicon_cup2.jpeg" class="cropped" style="height:300px;width:300px" alt='closeable Biodegradable reusable cup' onclick='openModal("product3")'>
         </div>
-    </div>
-    <p>
-        <br>
-    </p>
-    <div class="row">
+      </div>
+
+      <div class="row">
         <div class="column">
-            <img src="images/products/silicon_cup3.jpeg" alt='reusable cup' class="cropped" style="height:300px;width:300px" onclick='openModal("product4")'>
-            <img src="images/products/tumbler.jpg" class="cropped" style="height:300px;width:300px" onclick='openModal("product5")'>
-            <img src="images/products/glass_cup2.jpg" class="cropped" style="height:300px;width:300px" onclick='openModal("product6")'>
-            <!--modal for product 4-->
-            <div id='product4' class='productModal'>
-                <div class='modal-window'>
-                    <div class='modal_img'></div>
-                    <div class="modalLogo">PLANET A</div>
-                    <div class='productTitle'>
-                        <h3>The Small Terrain Cup</h3>
-                    </div>
-                    <a><button onclick='closeModal("product4")' class='modal-close'>&times;</button></a>
-                    <div class='productText'>
-                        <p>This is similar design to our all terrain cup. Except slightly smaller for those who just drink less or have smaller hands! It is made out of 100% biodegradable bamboo and is dishwasher and microwave friendly.
-                        </p>
-                        <img src="images/products/silicon_cup3.jpeg" class="cropped" alt='reusable cup' style="height:300px; width:300px">
-                    </div>
-                    <h2 class='productPrice'>$7.99</h2>
-                </div>
-            </div>
-            <div id='overlay'></div>
-            <!--end of modal for product 4-->
-            <!--modal for product 5-->
-            <div id='product5' class='productModal'>
-                <div class='modal-window'>
-                    <div class='modal_img'></div>
-                    <div class="modalLogo">PLANET A</div>
-                    <div class='productTitle'>
-                        <h3>The Keeper Cup</h3>
-                    </div>
-                    <a><button onclick='closeModal("product5")' class='modal-close'>&times;</button></a>
-                    <div class='productText'>
-                        <p>This cup is designed to help those with butter fingers. Extra grooves were designed to the cup for extra grip. If you have butter fingers this is for you, you won't ever drop your morning goodness ever again! It is made out of
-                            100% biodegradable bamboo and is dishwasher and microwave friendly.
+          <img src="images/products/silicon_cup3.jpeg" alt='reusable cup' class="cropped" style="height:300px;width:300px" onclick='openModal("product4")'>
+          <img src="images/products/tumbler.jpg" class="cropped" style="height:300px;width:300px" onclick='openModal("product5")'>
+          <img src="images/products/glass_cup2.jpg" class="cropped" style="height:300px;width:300px" onclick='openModal("product6")'>
+        </div>
+      </div>
 
-                        </p>
-                        <img src="images/products/tumbler.jpg" class="cropped" style="height:300px;width:300px" alt='reusable cup'>
-                    </div>
-                    <h2 class='productPrice'>$7.99</h2>
-                </div>
-            </div>
-            <!--end of modal for product 5-->
-            <!--modal for product 6-->
-            <div id='product6' class='productModal'>
-                <div class='modal-window'>
-                    <div class='modal_img'></div>
-                    <div class="modalLogo">PLANET A</div>
-                    <div class='productTitle'>
-                        <h3>The Home Stay</h3>
-                    </div>
-                    <button onclick='closeModal("product6")' class='modal-close'>&times;</button>
-                    <div class='productText'>
-                        <p>A cup for your every day needs. It's aesthetically well designed cup with a cork grip as a insulator to enjoy your drink while its hot. It is made out of 100% Greencast and is dishwasher and microwave friendly.
-                        </p>
-                        <img src="images/products/glass_cup2.jpg" class="cropped" style="height:300px;width:300px" alt='reusable cup'>
-                    </div>
-                    <h2 class='productPrice'>$8.99</h2>
-                </div>
-            </div>
-            <!--end of modal for product 6-->
-        </div>
-    </div>
-    </div>
-    <p>
-        <br>
-    </p>
-    <div class="row">
+      <div class="row">
         <div class="column">
-            <img src="images/products/silicon_cup4.jpg" class="cropped" style="height:300px;width:300px" onclick='openModal("product7")'>
-            <img src="images/products/tumbler2.jpg" class="cropped" style="height:300px;width:300px" onclick='openModal("product8")'>
-            <img src="images/products/tumbler3.jpg" class="cropped" style="height:300px;width:300px" onclick='openModal("product9")'>
-            <!--modal for product 7-->
-            <div id='product7' class='productModal'>
-                <div class='modal-window'>
-                    <div class='modal_img'></div>
-                    <div class="modalLogo">PLANET A</div>
-                    <div class='productTitle'>
-                        <h3>The Happy Cup</h3>
-                    </div>
-                    <button onclick='closeModal("product7")' class='modal-close'>&times;</button>
-                    <div class='productText'>
-                        <p>Similar in design to our minimalist. But with a cute message to make your morning. Made out of 100% biodegradable bamboo and is completely biodegradable. It can contain 300ml's of your favorite coffee, and is dishwasher and microwave
-                            friendly.
-                        </p>
-                        <img src="images/products/silicon_cup4.jpg" class="cropped" style="height:300px;width:300px" alt='reusable cup'>
-                    </div>
-                    <h2 class='productPrice'>$7.99</h2>
-                </div>
-            </div>
-            <!--end of modal for product 7-->
-            <!--modal for product 8-->
-            <div id='product8' class='productModal'>
-                <div class='modal-window'>
-                    <div class='modal_img'></div>
-                    <div class="modalLogo">PLANET A</div>
-                    <div class='productTitle'>
-                        <h3>The Sturdy Cup</h3>
-                    </div>
-                    <button onclick='closeModal("product8")' class='modal-close'>&times;</button>
-                    <div class='productText'>
-                        <p>Our most resistant cup. It can take boiling hot or freezing liquids, or a beating. Comes with a openable lid. Made out of stainless steel, is recyclable. It can contain 300ml's of your favorite coffee, and is dishwasher and microwave
-                            friendly.
-                        </p>
-                        <img src="images/products/tumbler2.jpg" class="cropped" style="height:300px;width:300px" alt='reusable cup'>
-                    </div>
-                    <h2 class='productPrice'>$15.50</h2>
-                </div>
-            </div>
-            <!--end of modal for product 8-->
-            <!--modal for product 9-->
-            <div id='product9' class='productModal'>
-                <div class='modal-window'>
-                    <div class='modal_img'></div>
-                    <div class="modalLogo">PLANET A</div>
-                    <div class='productTitle'>
-                        <h3>The All in One Cup</h3>
-                    </div>
-                    <button onclick='closeModal("product9")' class='modal-close'>&times;</button>
-                    <div class='productText'>
-                        <p>Our most versatile cup to date. It will keep liquids at in the state it came in. it is padded with our special insulators which will keep the contents at the temperature for several hours. Made out of stainless steel, this cup
-                            will last a lifetime. Recylable and is dishwasher and microwave friendly.
-                        </p>
-                        <img src="images/products/tumbler3.jpg" class="cropped" style="height:300px;width:300px" alt='reusable cup'>
-                    </div>
-                    <h2 class='productPrice'>$7.99</h2>
-                </div>
-            </div>
-            <!--end of modal for product 9-->
+          <img src="images/products/silicon_cup4.jpg" class="cropped" style="height:300px;width:300px" onclick='openModal("product7")'>
+          <img src="images/products/tumbler2.jpg" class="cropped" style="height:300px;width:300px" onclick='openModal("product8")'>
+          <img src="images/products/tumbler3.jpg" class="cropped" style="height:300px;width:300px" onclick='openModal("product9")'>
         </div>
+      </div>
     </div>
-    <p>
-        <br>
-    </p>
+
+    <section>
+      <div class="row">
+        <div class="column">
+          <!--modal for product 1-->
+          <div id='product1' class='productModal'>
+            <div class='modal-window'>
+              <div class='modal_img'></div>
+              <div class="modalLogo">PLANET A</div>
+              <div class='productTitle'>
+                <h3>The Minimalist Cup</h3>
+              </div>
+              <a><button onclick='closeModal("product1")' class='modal-close'>&times;</button></a>
+              <div class='productText'>
+                <p>Our most simplistic reuseable cup. Simple in design for simple needs. Made out of 100% biodegradable bamboo and is completely biodegradable. It can contain 300ml's of your favorite coffee, and is dishwasher and microwave friendly.
+                </p>
+                <img src="images/products/silicon_cup.jpg" alt='Simple Biodegradable reusable cup' style="height:300px; width:300px">
+              </div>
+              <h2 class='productPrice'>$7.99</h2>
+            </div>
+          </div>
+          <div id='overlay'></div>
+          <!--end of modal for product 1-->
+
+          <!--modal for product 2-->
+          <div id='product2' class='productModal'>
+            <div class='modal-window'>
+              <div class='modal_img'></div>
+              <div class="modalLogo">PLANET A</div>
+              <div class='productTitle'>
+                <h3>The Fine Diner Cup</h3>
+              </div>
+              <a><button onclick='closeModal("product2")' class='modal-close'>&times;</button></a>
+              <div class='productText'>
+                <p>An Elegant design to replace single use plastic cups at events. It is made out of Greencast, a recyclable clear acrylic, to give off the elegant finish. It is as elegant as glass, yet as cheap as your disposable paper cups. It
+                  can contain 300ml's of your favorite coffee, and is, biodegradable, dishwasher and microwave friendly.
+                </p>
+                <img src="images/products/glass_cup.jpg" alt='transparent Biodegradable reusable cup' style="height:300px;">
+              </div>
+              <h2 class='productPrice'>$2.99</h2>
+            </div>
+          </div>
+          <div id='overlay'></div>
+          <!--end of modal for product 2-->
+
+          <!--modal for product 3-->
+          <div id='product3' class='productModal'>
+            <div class='modal-window'>
+              <div class='modal_img'></div>
+              <div class="modalLogo">PLANET A</div>
+              <div class='productTitle'>
+                <h3>The All Terrain Cup</h3>
+              </div>
+              <a><button onclick='closeModal("product3")' class='modal-close'>&times;</button></a>
+              <div class='productText'>
+                <p>This tough design is for those who are always on the go. Even if that means you are travelling from one country to the next, or from one side of your room to the next. This cup will help you bring your morning goodness everywhere
+                  you go. It comes designed with a closeable lip for those doing cartwheels with their coffee. It is made out of 100% biodegradable bamboo and is dishwasher and microwave friendly.
+                </p>
+                <img src="images/products/silicon_cup2.jpeg" alt='closeable Biodegradable reusable cup' style="height:300px;width:200px">
+              </div>
+              <h2 class='productPrice'>$9.99</h2>
+            </div>
+          </div>
+          <div id='overlay'></div>
+          <!--end of modal for product 3-->
+          <!--modal for product 4-->
+          <div id='product4' class='productModal'>
+            <div class='modal-window'>
+              <div class='modal_img'></div>
+              <div class="modalLogo">PLANET A</div>
+              <div class='productTitle'>
+                <h3>The Small Terrain Cup</h3>
+              </div>
+              <a><button onclick='closeModal("product4")' class='modal-close'>&times;</button></a>
+              <div class='productText'>
+                <p>This is similar design to our all terrain cup. Except slightly smaller for those who just drink less or have smaller hands! It is made out of 100% biodegradable bamboo and is dishwasher and microwave friendly.
+                </p>
+                <img src="images/products/silicon_cup3.jpeg" class="cropped" alt='reusable cup' style="height:300px; width:300px">
+              </div>
+              <h2 class='productPrice'>$7.99</h2>
+            </div>
+          </div>
+          <div id='overlay'></div>
+          <!--end of modal for product 4-->
+          <!--modal for product 5-->
+          <div id='product5' class='productModal'>
+            <div class='modal-window'>
+              <div class='modal_img'></div>
+              <div class="modalLogo">PLANET A</div>
+              <div class='productTitle'>
+                <h3>The Keeper Cup</h3>
+              </div>
+              <a><button onclick='closeModal("product5")' class='modal-close'>&times;</button></a>
+              <div class='productText'>
+                <p>This cup is designed to help those with butter fingers. Extra grooves were designed to the cup for extra grip. If you have butter fingers this is for you, you won't ever drop your morning goodness ever again! It is made out of
+                  100% biodegradable bamboo and is dishwasher and microwave friendly.
+
+                </p>
+                <img src="images/products/tumbler.jpg" class="cropped" style="height:300px;width:300px" alt='reusable cup'>
+              </div>
+              <h2 class='productPrice'>$7.99</h2>
+            </div>
+          </div>
+          <!--end of modal for product 5-->
+          <!--modal for product 6-->
+          <div id='product6' class='productModal'>
+            <div class='modal-window'>
+              <div class='modal_img'></div>
+              <div class="modalLogo">PLANET A</div>
+              <div class='productTitle'>
+                <h3>The Home Stay</h3>
+              </div>
+              <button onclick='closeModal("product6")' class='modal-close'>&times;</button>
+              <div class='productText'>
+                <p>A cup for your every day needs. It's aesthetically well designed cup with a cork grip as a insulator to enjoy your drink while its hot. It is made out of 100% Greencast and is dishwasher and microwave friendly.
+                </p>
+                <img src="images/products/glass_cup2.jpg" class="cropped" style="height:300px;width:300px" alt='reusable cup'>
+              </div>
+              <h2 class='productPrice'>$8.99</h2>
+            </div>
+          </div>
+          <!--end of modal for product 6-->
+        </div>
+        <!--modal for product 7-->
+        <div id='product7' class='productModal'>
+          <div class='modal-window'>
+            <div class='modal_img'></div>
+            <div class="modalLogo">PLANET A</div>
+            <div class='productTitle'>
+              <h3>The Happy Cup</h3>
+            </div>
+            <button onclick='closeModal("product7")' class='modal-close'>&times;</button>
+            <div class='productText'>
+              <p>Similar in design to our minimalist. But with a cute message to make your morning. Made out of 100% biodegradable bamboo and is completely biodegradable. It can contain 300ml's of your favorite coffee, and is dishwasher and microwave
+                friendly.
+              </p>
+              <img src="images/products/silicon_cup4.jpg" class="cropped" style="height:300px;width:300px" alt='reusable cup'>
+            </div>
+            <h2 class='productPrice'>$7.99</h2>
+          </div>
+        </div>
+        <!--end of modal for product 7-->
+        <!--modal for product 8-->
+        <div id='product8' class='productModal'>
+          <div class='modal-window'>
+            <div class='modal_img'></div>
+            <div class="modalLogo">PLANET A</div>
+            <div class='productTitle'>
+              <h3>The Sturdy Cup</h3>
+            </div>
+            <button onclick='closeModal("product8")' class='modal-close'>&times;</button>
+            <div class='productText'>
+              <p>Our most resistant cup. It can take boiling hot or freezing liquids, or a beating. Comes with a openable lid. Made out of stainless steel, is recyclable. It can contain 300ml's of your favorite coffee, and is dishwasher and microwave
+                friendly.
+              </p>
+              <img src="images/products/tumbler2.jpg" class="cropped" style="height:300px;width:300px" alt='reusable cup'>
+            </div>
+            <h2 class='productPrice'>$15.50</h2>
+          </div>
+        </div>
+        <!--end of modal for product 8-->
+        <!--modal for product 9-->
+        <div id='product9' class='productModal'>
+          <div class='modal-window'>
+            <div class='modal_img'></div>
+            <div class="modalLogo">PLANET A</div>
+            <div class='productTitle'>
+              <h3>The All in One Cup</h3>
+            </div>
+            <button onclick='closeModal("product9")' class='modal-close'>&times;</button>
+            <div class='productText'>
+              <p>Our most versatile cup to date. It will keep liquids at in the state it came in. it is padded with our special insulators which will keep the contents at the temperature for several hours. Made out of stainless steel, this cup
+                will last a lifetime. Recylable and is dishwasher and microwave friendly.
+              </p>
+              <img src="images/products/tumbler3.jpg" class="cropped" style="height:300px;width:300px" alt='reusable cup'>
+            </div>
+            <h2 class='productPrice'>$7.99</h2>
+          </div>
+        </div>
+        <!--end of modal for product 9-->
+      </div>
+    </section>
 
     <div class="footer">
-        <section class='Company'>
-            <h1>PLANET A</h1>
-            <p>© Copyright Planet A 2020</p>
+      <section class='Company'>
+        <h1>PLANET A</h1>
+        <p>© Copyright Planet A 2020</p>
 
-        </section>
-        <section class='Copyright'>
-            <a href='https://www.fairtrade.net/'><img class='FairTrade' src='images/home/FairTrade.jpg' style='max-width:75px;'></a>
+      </section>
+      <section class='Copyright'>
+        <a href='https://www.fairtrade.net/'><img class='FairTrade' src='images/home/FairTrade.jpg' style='max-width:75px;'></a>
 
-        </section>
-        <section class='Socials'>
-            <h3> Socials </h3>
-            <ul>
-                <li>
-                    <a href='https://www.facebook.com/'>
-                        <img src='images/socials/Facebook.png' style="width:32px;" id='link'></a>
-                </li>
-                <li>
-                    <a href='https://www.instagram.com/'>
-                        <img src='images/socials/Instagram.png' style="width:32px;" id='link'></a>
-                </li>
-                <li>
-                    <a href='https://www.linkedin.com/'>
-                        <img src='images/socials/Linkedin.png' style="width:32px;" id='link'></a>
-                </li>
-                <li>
-                    <a href='https://www.snapchat.com/'>
-                        <img src='images/socials/Snapchat.png' style="width:32px;" id='link'></a>
-                </li>
-                <li>
-                    <a href='http://twitter.com/>'>
-                        <img src='images/socials/Twitter.png' style="width:32px;" id='link'></a>
-                </li>
-            </ul>
-        </section>
+      </section>
+      <section class='Socials'>
+        <h3> Socials </h3>
+        <ul>
+          <li>
+            <a href='https://www.facebook.com/'>
+              <img src='images/socials/Facebook.png' style="width:32px;" id='link'></a>
+          </li>
+          <li>
+            <a href='https://www.instagram.com/'>
+              <img src='images/socials/Instagram.png' style="width:32px;" id='link'></a>
+          </li>
+          <li>
+            <a href='https://www.linkedin.com/'>
+              <img src='images/socials/Linkedin.png' style="width:32px;" id='link'></a>
+          </li>
+          <li>
+            <a href='https://www.snapchat.com/'>
+              <img src='images/socials/Snapchat.png' style="width:32px;" id='link'></a>
+          </li>
+          <li>
+            <a href='http://twitter.com/>'>
+              <img src='images/socials/Twitter.png' style="width:32px;" id='link'></a>
+          </li>
+        </ul>
+      </section>
     </div>
 
-</body>
+  </body>
 
 </html>
