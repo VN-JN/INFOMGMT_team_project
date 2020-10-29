@@ -237,13 +237,6 @@ input[type=text] {
     padding: 20px;
 }
 
-.footer {
-    width: auto;
-    margin: 0;
-    padding: 10px;
-    background-color: #9cc5bc;
-}
-
 .contact_container {
     text-align: center;
     margin-left: 250px;
@@ -253,7 +246,7 @@ input[type=text] {
 }
 
 .footer {
-    width: 100%;
+    width: auto;
     text-align: center;
     margin: 0;
     padding: 10px;
