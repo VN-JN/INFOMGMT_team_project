@@ -29,9 +29,9 @@
     </p>
     <div class="row">
         <div class="column">
-            <img src="images/products/silicon_cup.jpg" class="cropped" style="height:300px; width:300px" alt='Simple Biodegradable reusable cup' onclick='openModal1()'>
-            <img src="images/products/glass_cup.jpg" class="cropped" style="height:300px;" alt='transparent Biodegradable reusable cup' onclick='openModal2()'>
-            <img src="images/products/silicon_cup2.jpeg" class="cropped" style="height:300px;width:300px" alt='closeable Biodegradable reusable cup' onclick='openModal3()'>
+            <img src="images/products/silicon_cup.jpg" class="cropped" style="height:300px; width:300px" alt='Simple Biodegradable reusable cup' onclick='openModal("product1")'>
+            <img src="images/products/glass_cup.jpg" class="cropped" style="height:300px;" alt='transparent Biodegradable reusable cup' onclick='openModal("product2")'>
+            <img src="images/products/silicon_cup2.jpeg" class="cropped" style="height:300px;width:300px" alt='closeable Biodegradable reusable cup' onclick='openModal("product3")'>
 
 
             <!--modal for product 1-->
@@ -42,7 +42,7 @@
                     <div class='productTitle'>
                         <h3>The Minimalist Cup</h3>
                     </div>
-                    <a><button onclick='closeModal1()' class='modal-close'>&times;</button></a>
+                    <a><button onclick='closeModal("product1")' class='modal-close'>&times;</button></a>
                     <div class='productText'>
                         <p>Our most simplistic reuseable cup. Simple in design for simple needs. Made out of 100% biodegradable bamboo and is completely biodegradable. It can contain 300ml's of your favorite coffee, and is dishwasher and microwave friendly.
                         </p>
@@ -62,7 +62,7 @@
                     <div class='productTitle'>
                         <h3>The Fine Diner Cup</h3>
                     </div>
-                    <a><button onclick='closeModal2()' class='modal-close'>&times;</button></a>
+                    <a><button onclick='closeModal("product2")' class='modal-close'>&times;</button></a>
                     <div class='productText'>
                         <p>An Elegant design to replace single use plastic cups at events. It is made out of Greencast, a recyclable clear acrylic, to give off the elegant finish. It is as elegant as glass, yet as cheap as your disposable paper cups. It
                             can contain 300ml's of your favorite coffee, and is, biodegradable, dishwasher and microwave friendly.
@@ -83,7 +83,7 @@
                     <div class='productTitle'>
                         <h3>The All Terrain Cup</h3>
                     </div>
-                    <a><button onclick='closeModal3()' class='modal-close'>&times;</button></a>
+                    <a><button onclick='closeModal("product3")' class='modal-close'>&times;</button></a>
                     <div class='productText'>
                         <p>This tough design is for those who are always on the go. Even if that means you are travelling from one country to the next, or from one side of your room to the next. This cup will help you bring your morning goodness everywhere
                             you go. It comes designed with a closeable lip for those doing cartwheels with their coffee. It is made out of 100% biodegradable bamboo and is dishwasher and microwave friendly.
@@ -103,9 +103,9 @@
     </p>
     <div class="row">
         <div class="column">
-            <img src="images/products/silicon_cup3.jpeg" alt='reusable cup' class="cropped" style="height:300px;width:300px" onclick='openModal4()'>
-            <img src="images/products/tumbler.jpg" class="cropped" style="height:300px;width:300px" onclick='openModal5()'>
-            <img src="images/products/glass_cup2.jpg" class="cropped" style="height:300px;width:300px" onclick='openModal6()'>
+            <img src="images/products/silicon_cup3.jpeg" alt='reusable cup' class="cropped" style="height:300px;width:300px" onclick='openModal("product4")'>
+            <img src="images/products/tumbler.jpg" class="cropped" style="height:300px;width:300px" onclick='openModal("product5")'>
+            <img src="images/products/glass_cup2.jpg" class="cropped" style="height:300px;width:300px" onclick='openModal("product6")'>
             <!--modal for product 4-->
             <div id='product4' class='productModal'>
                 <div class='modal-window'>
@@ -114,7 +114,7 @@
                     <div class='productTitle'>
                         <h3>The Small Terrain Cup</h3>
                     </div>
-                    <a><button onclick='closeModal4()' class='modal-close'>&times;</button></a>
+                    <a><button onclick='closeModal("product4")' class='modal-close'>&times;</button></a>
                     <div class='productText'>
                         <p>This is similar design to our all terrain cup. Except slightly smaller for those who just drink less or have smaller hands! It is made out of 100% biodegradable bamboo and is dishwasher and microwave friendly.
                         </p>
@@ -133,7 +133,7 @@
                     <div class='productTitle'>
                         <h3>The Keeper Cup</h3>
                     </div>
-                    <a><button onclick='closeModal5()' class='modal-close'>&times;</button></a>
+                    <a><button onclick='closeModal("product5")' class='modal-close'>&times;</button></a>
                     <div class='productText'>
                         <p>This cup is designed to help those with butter fingers. Extra grooves were designed to the cup for extra grip. If you have butter fingers this is for you, you won't ever drop your morning goodness ever again! It is made out of
                             100% biodegradable bamboo and is dishwasher and microwave friendly.
@@ -153,7 +153,7 @@
                     <div class='productTitle'>
                         <h3>The Home Stay</h3>
                     </div>
-                    <button onclick='closeModal6()' class='modal-close'>&times;</button>
+                    <button onclick='closeModal("product6")' class='modal-close'>&times;</button>
                     <div class='productText'>
                         <p>A cup for your every day needs. It's aesthetically well designed cup with a cork grip as a insulator to enjoy your drink while its hot. It is made out of 100% Greencast and is dishwasher and microwave friendly.
                         </p>
@@ -171,9 +171,9 @@
     </p>
     <div class="row">
         <div class="column">
-            <img src="images/products/silicon_cup4.jpg" class="cropped" style="height:300px;width:300px" onclick='openModal7()'>
-            <img src="images/products/tumbler2.jpg" class="cropped" style="height:300px;width:300px" onclick='openModal8()'>
-            <img src="images/products/tumbler3.jpg" class="cropped" style="height:300px;width:300px" onclick='openModal9()'>
+            <img src="images/products/silicon_cup4.jpg" class="cropped" style="height:300px;width:300px" onclick='openModal("product7")'>
+            <img src="images/products/tumbler2.jpg" class="cropped" style="height:300px;width:300px" onclick='openModal("product8")'>
+            <img src="images/products/tumbler3.jpg" class="cropped" style="height:300px;width:300px" onclick='openModal("product9")'>
             <!--modal for product 7-->
             <div id='product7' class='productModal'>
                 <div class='modal-window'>
@@ -182,7 +182,7 @@
                     <div class='productTitle'>
                         <h3>The Happy Cup</h3>
                     </div>
-                    <button onclick='closeModal7()' class='modal-close'>&times;</button>
+                    <button onclick='closeModal("product7")' class='modal-close'>&times;</button>
                     <div class='productText'>
                         <p>Similar in design to our minimalist. But with a cute message to make your morning. Made out of 100% biodegradable bamboo and is completely biodegradable. It can contain 300ml's of your favorite coffee, and is dishwasher and microwave
                             friendly.
@@ -201,7 +201,7 @@
                     <div class='productTitle'>
                         <h3>The Sturdy Cup</h3>
                     </div>
-                    <button onclick='closeModal8()' class='modal-close'>&times;</button>
+                    <button onclick='closeModal("product8")' class='modal-close'>&times;</button>
                     <div class='productText'>
                         <p>Our most resistant cup. It can take boiling hot or freezing liquids, or a beating. Comes with a openable lid. Made out of stainless steel, is recyclable. It can contain 300ml's of your favorite coffee, and is dishwasher and microwave
                             friendly.
@@ -220,7 +220,7 @@
                     <div class='productTitle'>
                         <h3>The All in One Cup</h3>
                     </div>
-                    <button onclick='closeModal9()' class='modal-close'>&times;</button>
+                    <button onclick='closeModal("product9")' class='modal-close'>&times;</button>
                     <div class='productText'>
                         <p>Our most versatile cup to date. It will keep liquids at in the state it came in. it is padded with our special insulators which will keep the contents at the temperature for several hours. Made out of stainless steel, this cup
                             will last a lifetime. Recylable and is dishwasher and microwave friendly.
